@@ -10,7 +10,7 @@ As a final project we decided to implement the algorithm for Hilbert-Schmidt ker
 **Input**: Kernel `G` for Hilbert-Schmidt operator, covariance kernel `K` for Gaussian Process, number `k` of functions to sample, left bound `a` and right bound `b` of functions' domain.
 **Output**: Low-rank approximation `G_k` of integral kernel `G`.
 **Steps**:
-1. Sample the Gaussian Process `k` times, i.e. apply continous Cholesky factorization $$ K = LL^* $$
+1. Sample the Gaussian Process `k` times, i.e. apply continous Cholesky factorization $ K = LL^* $
 2.  
 
 ## Contrubutors
