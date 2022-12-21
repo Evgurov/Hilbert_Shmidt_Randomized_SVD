@@ -1,9 +1,9 @@
 # NLA final project
-Randomized SVD for Hilbert-Schmidt kernels' low-rank approximation
+Randomized SVD for Hilbert-Schmidt operators low-rank approximation
 
 ## Concept
 ____
-As a final project we decided to implement the algorithm for Hilbert-Schmidt kernels' low-rank approximation described [here](https://arxiv.org/pdf/2105.13052.pdf). Algorithm represents generalized Randomized SVD. Generalization is understood in the sense of application to 2-D functions and using Gaussian Process with non-standart covariance kernel for sampling. We have also considered application of Randomized SVD with nonstandart covariance kernel for sampling in finite case.
+The idea of the project is to implement the algorithm for Hilbert-Schmidt kernels' low-rank approximation found in [2022 ICLR article](https://arxiv.org/pdf/2105.13052.pdf) by N. Boulle and A. Townsend. Algorithm represents generalized Randomized SVD. Generalization is understood in the sense of application to infinite dimensional operators and use of Gaussian Process with non-standart covariance kernel for sampling. We have also considered application of Randomized SVD with nonstandart covariance kernel for sampling in finite case.
 ## Implementation
 ___
 ### Files and their meaning
@@ -37,12 +37,12 @@ movefile('chebfun-master', 'chebfun'), addpath(fullfile(cd,'chebfun')), savepath
 
 * Files `main.m` and `main.mlx` are similar, but in different MATLAB formats: 'script' and 'livescript' respectively. If you want to see code from livescript without opening it in MATLAB you can check `main.pdf`.
 
-## Contrubutors
+## Contributors
 ___
-* **Arkady Vladimirov** - idea, analysis of the article, realization of the algorithm for infinite case  
+* **Arkadiy Vladimirov** - idea of the project, article analysis, realization of the algorithm for infinite case  
+* **Evgeny Gurov** - teamwork organization, article analysis, realization of the algorithm for infinite case, github handling
 * **Emil Alkin** - perfoming experiments, presentation
 * **Aleksandr Tolmachev** - RSVD with nonstandart kernel for finite case algorithm realization
-* **Evgeny Gurov** - analysis of the article, realization of the algorithm for infinite case, github
 
 ## Resources
 ___
