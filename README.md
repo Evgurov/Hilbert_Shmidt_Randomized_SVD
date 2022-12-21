@@ -39,7 +39,7 @@ movefile('chebfun-master', 'chebfun'), addpath(fullfile(cd,'chebfun')), savepath
 
 ## Contrubutors
 ___
-* **Arkady Vladimirov** - idea, analysis of the article and realization of the algorithm for infinite case  
+* **Arkady Vladimirov** - idea, analysis of the article, realization of the algorithm for infinite case  
 * **Emil Alkin** - perfoming experiments, presentation
 * **Aleksandr Tolmachev** - RSVD with nonstandart kernel for finite case algorithm realization
 * **Evgeny Gurov** - analysis of the article, realization of the algorithm for infinite case, github
